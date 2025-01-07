@@ -7,7 +7,7 @@ data = pd.read_csv('venv/data/train.csv')
 
 # set up data
 
-data = jnp.array(data)
+data = np.array(data)
 n, d = data.shape
 d -= 1
 np.random.shuffle(data)
